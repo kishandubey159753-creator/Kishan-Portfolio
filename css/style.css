@@ -3379,3 +3379,31 @@ h6,
 }
 
 
+@media (max-width: 576px) {
+
+  /* Hide desktop services */
+  .slide-personal-services {
+    display: none !important;
+  }
+
+  /* Show mobile services */
+  .services-mobile-exact {
+    display: flex !important;
+	justify-content: center;
+  }
+
+  /* FULL SCREEN HEIGHT */
+  .services-mobile-exact {
+min-height: 100%;
+  }
+
+  /* PAGEPILING TABLE FIX */
+  .services-mobile-exact .pp-table {
+    height: 100% !important;
+  }
+
+  /* 🔑 THIS IS THE KEY */
+  .services-mobile-exact .pp-tableCell {
+    vertical-align: middle !important;
+  }
+}
