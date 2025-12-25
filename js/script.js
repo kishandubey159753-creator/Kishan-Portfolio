@@ -234,5 +234,3 @@ document.querySelectorAll('.circle-skill').forEach(circle => {
 	}
 
 }($));
-
-
